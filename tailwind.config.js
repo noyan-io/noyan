@@ -19,5 +19,8 @@ export default {
         },
     },
 
-    plugins: [forms, typography, require("daisyui")],
+    plugins: [forms, typography, require("daisyui"), require("tailwindcss-flip")],
+    daisyui: {
+        themes: ["light", "dark", "cupcake", "dracula", "night", "synthwave"],
+    },
 };
