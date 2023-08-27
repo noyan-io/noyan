@@ -11,9 +11,7 @@
 </head>
 <body class="antialiased">
 <div class="drawer">
-
     <div class="drawer-content">
-
         <div class="navbar bg-primary text-primary-content">
             <div class="navbar-start">
                 <input id="my-drawer" type="checkbox" class="drawer-toggle"/>
