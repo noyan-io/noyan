@@ -14,8 +14,8 @@
     <div class="drawer-content">
         <div class="navbar bg-primary text-primary-content">
             <div class="navbar-start">
-                <input id="my-drawer" type="checkbox" class="drawer-toggle"/>
-                <label for="my-drawer" class="btn btn-primary drawer-button">
+                <input id="noyan-drawer" type="checkbox" class="drawer-toggle"/>
+                <label for="noyan-drawer" class="btn btn-primary drawer-button">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24"
                          height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                          stroke-linecap="round" stroke-linejoin="round">
@@ -53,12 +53,13 @@
 
     </div>
     <div class="drawer-side">
-        <label for="my-drawer" class="drawer-overlay"></label>
+        <label for="noyan-drawer" class="drawer-overlay"></label>
         <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             <!-- Sidebar content here -->
             <li><a>Sidebar Item 1</a></li>
             <li><a>Sidebar Item 2</a></li>
-
+            <li><a>Sidebar Item 3</a></li>
+            <li><a>Sidebar Item 4</a></li>
         </ul>
     </div>
 </div>
