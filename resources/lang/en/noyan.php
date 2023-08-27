@@ -1,4 +1,5 @@
 <?php
 return [
-    'title' => 'Noyan'
+    'title' => 'Noyan',
+    'direction' => 'ltr',
 ];
