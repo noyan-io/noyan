@@ -71,7 +71,7 @@
                     <path d="M12 5l0 14"></path>
                     <path d="M5 12l14 0"></path>
                 </svg>
-                <span class="btm-nav-label">Income</span>
+                <span class="btm-nav-label">{{ __('noyan.income') }}</span>
             </button>
             <button class="active bg-blue-200 text-blue-600 border-blue-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transfer" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -79,14 +79,14 @@
                     <path d="M20 10h-16l5.5 -6"></path>
                     <path d="M4 14h16l-5.5 6"></path>
                 </svg>
-                <span class="btm-nav-label">Transfer</span>
+                <span class="btm-nav-label">{{ __('noyan.transfer') }}</span>
             </button>
             <button class="bg-teal-200 text-teal-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M5 12l14 0"></path>
                 </svg>
-                <span class="btm-nav-label">Expense</span>
+                <span class="btm-nav-label">{{ __('noyan.expense') }}</span>
             </button>
         </div>
     </div>
