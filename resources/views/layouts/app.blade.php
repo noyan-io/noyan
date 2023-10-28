@@ -21,7 +21,6 @@
 <div class="drawer">
     <input id="noyan-drawer" type="checkbox" class="drawer-toggle"/>
     <div class="drawer-content">
-
         <div class="navbar bg-primary text-primary-content">
             <div class="navbar-start">
                 <label for="noyan-drawer" class="btn btn-primary drawer-button">
