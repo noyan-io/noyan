@@ -21,7 +21,6 @@
 <div class="drawer">
     <input id="noyan-drawer" type="checkbox" class="drawer-toggle"/>
     <div class="drawer-content">
-
         <div class="navbar bg-primary text-primary-content">
             <div class="navbar-start">
                 <label for="noyan-drawer" class="btn btn-primary drawer-button">
@@ -72,7 +71,7 @@
                     <path d="M12 5l0 14"></path>
                     <path d="M5 12l14 0"></path>
                 </svg>
-                <span class="btm-nav-label">Income</span>
+                <span class="btm-nav-label">{{ __('noyan.income') }}</span>
             </button>
             <button class="active bg-blue-200 text-blue-600 border-blue-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-transfer" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -80,14 +79,14 @@
                     <path d="M20 10h-16l5.5 -6"></path>
                     <path d="M4 14h16l-5.5 6"></path>
                 </svg>
-                <span class="btm-nav-label">Transfer</span>
+                <span class="btm-nav-label">{{ __('noyan.transfer') }}</span>
             </button>
             <button class="bg-teal-200 text-teal-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-minus" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M5 12l14 0"></path>
                 </svg>
-                <span class="btm-nav-label">Expense</span>
+                <span class="btm-nav-label">{{ __('noyan.expense') }}</span>
             </button>
         </div>
     </div>
@@ -95,10 +94,9 @@
         <label for="noyan-drawer" class="drawer-overlay"></label>
         <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             <!-- Sidebar content here -->
-            <li><a>Sidebar Item 1</a></li>
-            <li><a>Sidebar Item 2</a></li>
-            <li><a>Sidebar Item 3</a></li>
-            <li><a>Sidebar Item 4</a></li>
+            <li><a>{{ __('noyan.home') }}</a></li>
+            <li><a>{{ __('noyan.reports') }}</a></li>
+            <li><a>{{ __('noyan.category') }}</a></li>
         </ul>
     </div>
 </div>
