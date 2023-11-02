@@ -1,6 +1,7 @@
 <?php
 return [
     'title' => 'Noyan',
+    'home' => 'Home',
     'direction' => 'ltr',
     'income' => 'Income',
     'transfer' => 'Transfer',
