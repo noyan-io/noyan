@@ -5,4 +5,6 @@ return [
     'income' => 'Income',
     'transfer' => 'Transfer',
     'expense' => 'Expense',
+    'reports' => 'Reports',
+    'category' => 'Category',
 ];

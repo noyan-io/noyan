@@ -94,10 +94,9 @@
         <label for="noyan-drawer" class="drawer-overlay"></label>
         <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             <!-- Sidebar content here -->
-            <li><a>Sidebar Item 1</a></li>
-            <li><a>Sidebar Item 2</a></li>
-            <li><a>Sidebar Item 3</a></li>
-            <li><a>Sidebar Item 4</a></li>
+            <li><a>{{ __('noyan.home') }}</a></li>
+            <li><a>{{ __('noyan.reports') }}</a></li>
+            <li><a>{{ __('noyan.category') }}</a></li>
         </ul>
     </div>
 </div>
